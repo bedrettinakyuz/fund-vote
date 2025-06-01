@@ -28,7 +28,7 @@ interface VotingInterfaceProps {
 const votingOptions: VotingOption[] = [
   {
     id: 1,
-    name: "Seçenek A",
+    name: "Teknoloji Projeleri Desteği",
     description: "Yenilikçi teknoloji projeleri için destek",
     address: "GAVL36HP7MNDIOCQABGSNLC7NUSYSUD7GU3AOSAQNOMHWM66YZFAFLHV", // Örnek adres
     icon: "🚀",
@@ -36,7 +36,7 @@ const votingOptions: VotingOption[] = [
   },
   {
     id: 2,
-    name: "Seçenek B",
+    name: "Çevre ve Doğa Projeleri Desteği",
     description: "Çevre dostu sürdürülebilir projeler",
     address: "GAVL36HP7MNDIOCQABGSNLC7NUSYSUD7GU3AOSAQNOMHWM66YZFAFLHV", // Örnek adres
     icon: "🌱",
@@ -44,7 +44,7 @@ const votingOptions: VotingOption[] = [
   },
   {
     id: 3,
-    name: "Seçenek C",
+    name: "Eğitim Projeleri Desteği",
     description: "Eğitim ve sosyal fayda projeleri",
     address: "GAVL36HP7MNDIOCQABGSNLC7NUSYSUD7GU3AOSAQNOMHWM66YZFAFLHV", // Örnek adres
     icon: "📚",
