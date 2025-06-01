@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌟 Fund Vote App
+A decentralized voting application built on the Stellar blockchain with Soroban smart contracts, enabling poll creation with automatic XLM rewards per vote.
 
-## Getting Started
+📌 Overview
+Fund Vote App is a Web3 platform where users can create polls and fund each vote with XLM tokens. Voters receive real-time rewards, while the blockchain ensures transparency, security, and decentralization.
 
-First, run the development server:
+⚙️ Features
+Voting System
+Create customizable, time-limited polls
 
-```bash
+Reward voters with XLM per vote
+
+Live results and vote tracking
+
+Blockchain Integration
+Built with Soroban smart contracts on Stellar
+
+Wallet support via Freighter
+
+Instant token transfers
+
+UI/UX
+Modern and responsive design
+
+User dashboard for tracking polls and votes
+
+🧱 Tech Stack
+Frontend: Next.js, Tailwind CSS, TypeScript
+
+Blockchain: Stellar + Soroban (Rust)
+
+Wallet: Freighter
+
+Smart Contracts: Rust (via Soroban CLI)
+
+🚀 Getting Started
+Requirements
+Node.js 18+
+
+Rust
+
+Soroban CLI
+
+Freighter Wallet
+
+Quick Start
+git clone https://github.com/bedrettinakyuz/fund-vote-app.git
+cd fund-vote-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Set environment variables in .env.local. Make sure the smart contract is deployed to the Stellar testnet.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧠 Smart Contract
+rust
+// Key Functions
+create_poll(env, creator, title, options, funding, duration) -> poll_id
+vote(env, voter, poll_id, option_index)
+get_poll(env, poll_id) -> Poll
+get_results(env, poll_id) -> Vec<u32>
+Emits events like PollCreated, VoteCast, and FundsDistributed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📁 Project Structure
+csharp
+Kopyala
+Düzenle
+fund-vote-app/
+├── frontend/       # UI components
+├── contracts/        # Soroban smart contracts
+📞 Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+GitHub: github.com/bedrettinakyuz/fund-vote-app
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⭐ Star this repo if you like it!
 
-## Deploy on Vercel
+Made with ❤️ for decentralized voting on Stellar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you'd like, I can also generate a shorter version for your GitHub description or a polished tagline. Let me know!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
